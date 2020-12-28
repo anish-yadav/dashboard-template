@@ -1,0 +1,16 @@
+.sidebar {
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 55px;
+    background-color: #e63935;
+}
+
+@media screen and (max-width : 576px ){
+    .sidebar{
+        display: none;
+    }
+}
